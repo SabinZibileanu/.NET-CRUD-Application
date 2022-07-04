@@ -1,0 +1,18 @@
+﻿@page
+@model BackEndCST.Pages.LogoutModel
+@{
+}
+
+<form method = "post">
+    <div class = "container mt-5">
+        <div class = "row justify-content-center">
+            <div class = "col-sm-12 col-md-12 col-lg-4">
+                <p>Urmeaza sa iesi de pe site.Apasa da daca vrei sa iesi sau nu daca vrei sa mai ramai
+                    <button class = "btn btn-primary" asp-page-handler="Logout">Da</button>
+                    <button class = "btn btn-light ml-5 border-dark" asp-page-handler="NoLogout">Nu</button>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</form>
